@@ -6,4 +6,5 @@ This notebook contains a recipe for fine-tuning [ModernBERT-base](https://huggin
 
 - The notebook can be run on free-tier [Google Colab](https://colab.research.google.com) runtimes.
 - I used a batch size of 4 and an eval batch size of 2 on a free T4 GPU runtime.
-- While ModernBERT supports up to 8192 tokens, I kept this example to 1024 tokens.
+- While ModernBERT supports up to 8192 tokens, I kept this example to 1024 tokens. 
+  - I wanted to test the performance of the model using a moderately sized max length.
